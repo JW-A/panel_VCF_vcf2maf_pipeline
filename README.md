@@ -1,16 +1,16 @@
 # NCDC_panel_VCF_vcf2maf
 
 
-#parallel process: batch_vcf2maf_liftover_parallel_V.1.1.0_github \
-#one by one process: batch_vcf2maf_liftover_V.1.0.3_github
+#parallel process: batch_vcf2maf_liftover_parallel_V.1.1.7_github \
+#one by one process: batch_vcf2maf_liftover_V.1.0.9_github
 
 #one by one process \
-chmod +x batch_vcf2maf_liftover_V.1.0.3.sh \
-./batch_vcf2maf_liftover_V.1.0.3.sh
+chmod +x batch_vcf2maf_liftover_V.1.0.9.sh \
+./batch_vcf2maf_liftover_V.1.0.9.sh
 
 #parallel process \
-chmod +x batch_vcf2maf_liftover_parallel_V.1.1.0.sh \
-./batch_vcf2maf_liftover_parallel_V.1.1.0.sh
+chmod +x batch_vcf2maf_liftover_parallel_V.1.1.7.sh \
+./batch_vcf2maf_liftover_parallel_V.1.1.7.sh
 
 # 기능 요약:
 - 입력: INPUT_DIR 아래의 모든 *.vcf* 파일 (확장자 자유: .vcf, .vcf.gz, .vcf.vep 등) \
