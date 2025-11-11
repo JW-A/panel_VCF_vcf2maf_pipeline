@@ -13,11 +13,11 @@ chmod +x batch_vcf2maf_liftover_parallel_V.1.1.7.sh \
 
 # NCDC_panel_VCF_vcf2maf 최신 버전(NCDC_batch_vcf2maf_V.1.2.0)
 
-- 최신 버전 부터는 parallel 및 one by one을 하나로 변경
+- 최신 버전 부터는 parallel 및 one by one을 하나로 변경 \
 chmod +x NCDC_batch_vcf2maf_V.1.2.0.sh \
 ./NCDC_batch_vcf2maf_V.1.2.0.sh
 
-- 병열 처리 수 및 sample 이름 길이 설정
+- 병열 처리 수 및 sample 이름 길이 설정 \
 CORES=4 \
 SAMPLE_TAG_LENGTH=8  # Tumor_Sample_Barcode length (e.g., 8 → "S002-033")
 
